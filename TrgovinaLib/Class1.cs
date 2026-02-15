@@ -126,7 +126,7 @@ namespace TrgovinaLib
             Podpora5G = podpora5G;
             BaterijaMAH = baterijaMAH;
         }
-
+         
         public override string Izpis()
         {
             return base.Izpis()
@@ -255,6 +255,16 @@ namespace TrgovinaLib
         public const double DDV = 0.22;
         public static string ImeTrgovine = "TechShop";
         private double popust;
+        private List<Izdelek> izdelki = new List<Izdelek>();
+        public void DodajIzdelek(Izdelek izdelek)
+        {
+            izdelki.Add(izdelek);
+        }
+        public Izdelek this[int index]
+        {
+            get { return izdelki[index]; }
+            set { izdelki[index] = value; }
+        }
 
         public double Popust
         {
@@ -271,6 +281,7 @@ namespace TrgovinaLib
         {
             Popust = popust;
         }
+
         public double KoncnaCena(Izdelek izdelek)
         {
             double cenaZDDV = izdelek.Cena + Izdelek.IzracunajDDV(izdelek.Cena);
