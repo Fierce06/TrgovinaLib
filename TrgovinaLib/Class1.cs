@@ -66,16 +66,25 @@ namespace TrgovinaLib
         }
 
     }
+    public interface IGarancija
+    {
+        int GarancijaMeseci { get; set; }
 
-    
+        string PrikaziGarancijo();
+    }
 
-    public class Telefon : Izdelek
+    public class Telefon : Izdelek, IGarancija
     {
         private int kameraMP;
         private bool podpora5G;
         private int baterijaMAH;
 
-       
+        public int GarancijaMeseci { get; set; }
+
+        public string PrikaziGarancijo()
+        {
+            return "Garancija: " + GarancijaMeseci + " mesecev";
+        }
 
         public int KameraMP
         {
@@ -128,11 +137,18 @@ namespace TrgovinaLib
     }
 
 
-    public class Laptop : Izdelek
+    public class Laptop : Izdelek, IGarancija
     {
         private int ram;
         private string procesor;
         private double teza;
+
+        public int GarancijaMeseci { get; set; }
+
+        public string PrikaziGarancijo()
+        {
+            return "Garancija: " + GarancijaMeseci + " mesecev";
+        }
 
 
         public int Ram
