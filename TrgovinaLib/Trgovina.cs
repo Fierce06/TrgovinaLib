@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace TrgovinaLib
 {
-    //dodaj se eno abstraktno metodo
     //uporabi indekser
     public abstract class Izdelek
     {
@@ -273,6 +272,11 @@ namespace TrgovinaLib
         public void DodajIzdelek(Izdelek izdelek)
         {
             izdelki.Add(izdelek);
+
+            if (IzdelekDodan != null)
+            {
+                IzdelekDodan(izdelek);
+            }
         }
         public Izdelek this[int index]
         {
@@ -290,7 +294,10 @@ namespace TrgovinaLib
                     popust = value;
                 }
             }
-        }
+        } 
+        
+        public delegate void IzdelekDodanHandler(Izdelek izdelek);
+        public event IzdelekDodanHandler IzdelekDodan;
         public Trgovina(double popust)
         {
             Popust = popust;
@@ -301,5 +308,7 @@ namespace TrgovinaLib
             double cenaZDDV = izdelek.Cena + Izdelek.IzracunajDDV(izdelek.Cena);
             return cenaZDDV * (1 - Popust);
         }
+
+       
     }
 }
