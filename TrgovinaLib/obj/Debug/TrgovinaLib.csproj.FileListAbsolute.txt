@@ -1,0 +1,12 @@
+C:\Users\inesp\source\repos\TrgovinaLib\TrgovinaLib\bin\Debug\TrgovinaLib.dll
+C:\Users\inesp\source\repos\TrgovinaLib\TrgovinaLib\bin\Debug\TrgovinaLib.pdb
+C:\Users\inesp\source\repos\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.csproj.AssemblyReference.cache
+C:\Users\inesp\source\repos\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.csproj.CoreCompileInputs.cache
+C:\Users\inesp\source\repos\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.dll
+C:\Users\inesp\source\repos\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.pdb
+C:\Users\inesp\Downloads\1\TrgovinaLib\TrgovinaLib\bin\Debug\TrgovinaLib.dll
+C:\Users\inesp\Downloads\1\TrgovinaLib\TrgovinaLib\bin\Debug\TrgovinaLib.pdb
+C:\Users\inesp\Downloads\1\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.csproj.AssemblyReference.cache
+C:\Users\inesp\Downloads\1\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.csproj.CoreCompileInputs.cache
+C:\Users\inesp\Downloads\1\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.dll
+C:\Users\inesp\Downloads\1\TrgovinaLib\TrgovinaLib\obj\Debug\TrgovinaLib.pdb

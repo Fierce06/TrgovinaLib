@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace TrgovinaLib
 {
+    //dodaj se eno abstraktno metodo
+    //uporabi indekser
     public abstract class Izdelek
     {
         protected static int globalID = 0;
@@ -51,6 +53,7 @@ namespace TrgovinaLib
             id = ++globalID;
         }
 
+        public abstract string VrstaIzdelka();
 
         public virtual string Izpis()
         {
@@ -72,7 +75,7 @@ namespace TrgovinaLib
 
         string PrikaziGarancijo();
     }
-
+    
     public class Telefon : Izdelek, IGarancija
     {
         private int kameraMP;
@@ -84,6 +87,10 @@ namespace TrgovinaLib
         public string PrikaziGarancijo()
         {
             return "Garancija: " + GarancijaMeseci + " mesecev";
+        }
+        public override string VrstaIzdelka()
+        {
+            return "Telefon";
         }
 
         public int KameraMP
@@ -148,6 +155,11 @@ namespace TrgovinaLib
         public string PrikaziGarancijo()
         {
             return "Garancija: " + GarancijaMeseci + " mesecev";
+        }
+
+        public override string VrstaIzdelka()
+        {
+            return "Laptop";
         }
 
 
@@ -235,7 +247,7 @@ namespace TrgovinaLib
 
             }
         }
-
+         
         public Stranka(string ime, string email)
         {
             Ime = ime;
@@ -255,7 +267,9 @@ namespace TrgovinaLib
         public const double DDV = 0.22;
         public static string ImeTrgovine = "TechShop";
         private double popust;
+
         private List<Izdelek> izdelki = new List<Izdelek>();
+
         public void DodajIzdelek(Izdelek izdelek)
         {
             izdelki.Add(izdelek);

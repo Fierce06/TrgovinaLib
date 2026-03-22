@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\inesp\\source\\repos\\TrgovinaLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F68C72DB-E4F0-4305-801A-771FA1091038}|TrgovinaLib\\TrgovinaLib.csproj|c:\\users\\inesp\\source\\repos\\trgovinalib\\trgovinalib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F68C72DB-E4F0-4305-801A-771FA1091038}|TrgovinaLib\\TrgovinaLib.csproj|solutionrelative:trgovinalib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\inesp\\source\\repos\\TrgovinaLib\\TrgovinaLib\\Class1.cs",
+              "RelativeDocumentMoniker": "TrgovinaLib\\Class1.cs",
+              "ToolTip": "C:\\Users\\inesp\\source\\repos\\TrgovinaLib\\TrgovinaLib\\Class1.cs",
+              "RelativeToolTip": "TrgovinaLib\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYBAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T16:55:03.852Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
